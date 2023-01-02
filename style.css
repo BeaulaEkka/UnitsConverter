@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  background-color: #1f2937;
+}
+
+header {
+  width: 550px;
+  height: 285px;
+  background-color: #6943ff;
+  margin: 126px auto 0px auto;
+}
+.text {
+  width: 448px;
+  height: 38px;
+  color: white;
+  padding: 33px 50px 33px 50px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+}
+.text h1 {
+  margin: 0px;
+}
+::placeholder {
+  color: #5832ee;
+  opacity: 1;
+}
+
+#convertbutton {
+  width: 117px;
+  height: 42px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1 2 0;
+  background-color: #ffffff;
+  margin: 20px;
+}
+.resultboxes {
+  box-sizing: border-box;
+  width: 550px;
+  height: 444px;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0px auto 25px auto;
+  padding-top: 10px;
+  color: #5a537b;
+}
+.box1,
+.box2,
+.box3 {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 25px;
+  width: 500px;
+  height: 108.57px;
+  padding: 30px;
+  flex-shrink: 1;
+}
+
+.resultboxes h3 {
+  margin: 0px;
+}
+.box1a,
+.box2a,
+.box3a {
+  box-sizing: border-box;
+  display: flex;
+  width: 450px;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  font-size: 15px;
+}
+
+#user-input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #b295ff;
+  width: 117px;
+  height: 83px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 800;
+  color: white;
+  margin: 30px auto 10px auto;
+}

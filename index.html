@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+    
+<header>
+    <div class="container">
+    <div class="text">
+    <h1>Metric/Imperial Unit Conversion</h1>
+   <label for="user-input">
+       <input type="text"  id="user-input" placeholder="0" inputmode="numeric">
+       </br>
+       <button type="button"  id="convertbutton" name="convertbutton">Convert</button>
+    </div>
+</header>
+
+<section class="resultboxes">
+    <article class="box1">
+        <h3>Length (Meter/Feet)</h3>
+         <div class="box1a"> 
+            <p id="convert-meter-foot">0 meters = 0.000 feet </p><p>&nbsp|&nbsp</p>  <p id="convert-feet-meter"> 0 feet = 0.000 meters</p>
+        </div> 
+    </article>
+    
+    <article class="box2">
+        <h3>Volume (Liters/Gallons)</h3>
+        <div class="box2a"> 
+        <p id="convert-liter-gallon">0 liters = 0.000 gallons </p><p>&nbsp|&nbsp</p> <p id="convert-gallon-liter"> 0 gallons = 0.000 liters</p>
+        </div>
+    </article>
+    
+    <article class="box3">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <div class="box3a"> 
+        <p id="convert-kilogram-pound">0 Kilograms = 0.000 Pounds </p><p>&nbsp|&nbsp</p> <p id="convert-pound-kilogram"> 0 Pounds = 0.000 Kilograms</p>
+        </div>
+    </article>
+</section>
+<script src="index.js"></script>
+</div>
+</body>
+</html>
